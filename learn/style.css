@@ -1,0 +1,38 @@
+.navbar {
+    background-color: bisque;
+    height: 50px;
+    margin: -10px;
+    padding-bottom: 10px;
+}
+
+.navbar .nametag  {
+    text-align: center;
+    padding-top: 100px;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    margin-top: -82px;
+    margin-left: 10px;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+.navbar ul {
+    float: inline-end;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    margin-right: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.navbar ul li a{
+    display: inline;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
